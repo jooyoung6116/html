@@ -31,3 +31,49 @@ input, select, textarea
 redio, checked -> 값을 선택하는 속성 checked
 
 select에서 값을 선택하는 속성 -> selected (option 태그에 정의)
+
+textarea	
+	- rows - 영역을 몇줄 만큼 늘릴 것인지
+	- cols - 영역을 몇칸 만큼 늘릴 것인지
+	
+input
+	type - 버튼관련 타입 submit(양식제출) / button(일반버튼) / reset(양식취소)
+	
+placeholder - 안내문구
+
+회원가입 양식
+
+form - 양식, 신청서
+
+<form method="", action="">
+
+</form>
+
+- method - 전송 방식(GET, POST)
+
+- action - 양식 데이터를 처리할 URL
+- enctype -> 파일을 업로드 할 때
+	(enctype='multipart/form-data')
+	
+그룹화 태그
+<fieldset>
+	<legend>그룹 제목</legend>
+</fieldset>
+
+select
+	multiple - 여러개 선택 가능
+	size -한번에 노출할 갯수
+	
+특정 option을 선택 할때 - selected
+
+type	
+	- submit 양식 제출 버튼
+	- button 일반적은 버튼
+	- reset 양식 취소 버튼
+		<input type='sumit' value='버튼명'>
+		<button type='sumit'>버튼명</button>
+		
+type
+	- image 제출 버튼(이미지 제출 - submit와 동일한 기능)
+		+src 속성 -> 이미지 경로
+			<input type='image' src='경로'>
